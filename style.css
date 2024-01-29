@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+body {
+  background-image: url(backgroundimage.jpg);
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-attachment: fixed;
+  font-weight: bolder;
+}
+form {
+  width: 750px;
+  margin: auto;
+  background-color: #9a6d4c;
+  opacity: 0.8;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+}
+
+#description {
+  position: relative;
+  bottom: 1em;
+}
+#name {
+  width: 90%;
+  height: 3em;
+  border: #9a6d4c;
+}
+#email {
+  width: 90%;
+  height: 3em;
+  border: #9a6d4c;
+}
+#number {
+  width: 90%;
+  height: 3em;
+  border: #9a6d4c;
+}
+#dropdown {
+  width: 90%;
+  height: 3em;
+  border: #9a6d4c;
+}
+#dropdown2 {
+  width: 90%;
+  height: 3em;
+  border: #9a6d4c;
+}
+#divposition {
+  margin-left: 65px;
+}
+#submit {
+  width: 90.5%;
+  height: 3em;
+  background-color: yellowgreen;
+  border: #9a6d4c;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+img {
+  height: 100%;
+}
+textarea {
+  width: 90%;
+  border: #9a6d4c;
+}
+
+.checkboxes {
+  width: 20px;
+  height: 20px;
+}

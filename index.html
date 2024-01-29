@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Generico</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">
+      <i>Thank you for taking the time to help us improve the platform</i>
+    </p>
+
+    <form id="survey-form">
+      <div id="divposition">
+        <br /><br />
+        <label id="name-label" for="name"
+          >Enter your Name <br />
+          <input id="name" type="text" placeholder="Enter your name" required
+        /></label>
+        <br />
+        <br />
+        <label id="email-label" for="email"
+          >Email <br />
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+        /></label>
+        <br /><br />
+        <label id="number-label" for="number"
+          >Age (Optional) <br />
+          <input
+            id="number"
+            type="number"
+            placeholder="Enter your number"
+            min="18"
+            max="80"
+            required /></label
+        ><br /><br />
+
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select name="select" id="dropdown">
+          <option value="challenges">Challenges.</option>
+          <option value="projects">Projects</option>
+          <option value="Community">Community</option>
+          <option value="opensource">Open Source</option>
+        </select>
+
+        <p>Would you like to recommend Freecodecamp to a friend?</p>
+        <input
+          type="radio"
+          name="recommendation"
+          id="Definitely"
+          value="Definitely"
+        />
+        <label for="Definitely">Definitely</label> <br />
+        <input type="radio" name="recommendation" id="Maybe" value="Maybe" />
+        <label for="Maybe">Maybe</label> <br />
+        <input
+          type="radio"
+          name="recommendation"
+          id="Notsure"
+          value="Notsure"
+        />
+        <label for="Notsure">Not sure</label>
+
+        <p>Which option best describes your current role?</p>
+        <select name="select2" id="dropdown2">
+          <option value="student">Student</option>
+          <option value="full time job">Full time Job</option>
+          <option value="Full time learner">Full time Leaner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label for="checkboxes">
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Front-end-Projects" />
+          Front-end Projects <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Back-end-Projects" />
+          Back-end Projects <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Data-Visualization" />
+          Data Visualization <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="challenges" />
+          Challenges <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Open-Source-Community" />
+          Open Source Community <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Gitter Help Rooms" />
+          Gitter Help Rooms <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Videos" />
+          Videos <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="City Meetups" />
+          City Meetups <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Wiki" />
+          Wiki <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Forum" />
+          Forum <br />
+          <input
+            class="checkboxes"
+            type="checkbox"
+            name="checkboxes"
+            value="Additional Courses" />
+          Additional Courses<br /></label
+        ><br /><br />
+        <p>Any Comments or Suggestions?</p>
+
+        <textarea
+          name="textarea"
+          id="comments"
+          cols="1"
+          rows="10"
+          placeholder="Enter your comment here..."
+        ></textarea>
+        <br />
+        <button id="submit" type="submit">Submit</button>
+        <br />
+        <br />
+      </div>
+    </form>
+  </body>
+</html>
